@@ -6,7 +6,7 @@ class saslauthd::params {
   $mechanisms               = 'pam'
   $mech_options             = ''
   $threads                  = 5
-  $options                  = '-c -m /var/run/saslauthd'
+  $options                  = '-m /var/spool/postfix/var/run/saslauthd'
 
   # LDAP mechanism options
   $ldap_auth_method         = ''

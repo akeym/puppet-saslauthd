@@ -1,5 +1,5 @@
 name    'rgevaert-saslauthd'
-version '0.0.1'
+version '0.0.2'
 source 'https://github.com/rgevaert/puppet-saslauthd'
 author 'rgevaert'
 license 'GPL v3'
